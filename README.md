@@ -37,7 +37,7 @@ In this project we have used ns-3 docker container.
 
 2. After installing docker [For more information click on this Link](https://docs.docker.com/engine/install/ubuntu/), pull the docker image to install NS-3 DCE 
 
-                sudo docker pull thehajime/ns-3-dce.
+                `sudo docker pull thehajime/ns-3-dce`
 
 3. Run docker to create a container.This will take us to a particular container where the ns-3 dce can be found.
 
@@ -47,7 +47,7 @@ In this project we have used ns-3 docker container.
 
              sudo apt install vim.
 
-5. Copy & replace the files  tcp-veno.cc,tcp-congestion-ops.cc,tcp-congestion-ops.h to source/ns-3-dev/src/internet/model.
+5. Copy & replace the files  tcp-veno.cc,tcp-congestion-ops.cc,tcp-congestion-ops.h to source/ns-3-dev/src/internet/model/.
 
 6. Keep the topologies and scripts from folder Topology in home directory in local machine.
 
