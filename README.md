@@ -31,7 +31,7 @@ applications without source code changes.
 The main goal of this project is to have a Linux like TCP implementation in ns-3.
 In this project we have used ns-3 docker container.
 
-2.Step To follow
+2.Steps To Follow
 --------------------
 Step1: Add dumbbell-topology-ns3-receiver.cc in the dce/dce-linux-dev/source/ns-3-dce/example 
        add parse_cwnd in /ns-3-dce/utils ,and change wscript present in the dce/dce-linux-dev/source/ns-3-dce directory.
