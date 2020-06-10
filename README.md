@@ -58,7 +58,7 @@ Step3: Since changes was made in  the dev, you need to build the dev again.
                
  3.Overlapping ns-3 TcpVeno with Linux veno implementation
  -------------------------------------------------------------
- Step 1: After making necessary changes(tcp-veno.cc,tcp-congestion-ops.cc,tcp-congestion-ops.h,tcp-veno.h)
+** Step 1: After making necessary changes(tcp-veno.cc,tcp-congestion-ops.cc,tcp-congestion-ops.h,tcp-veno.h)
           copy the files to source/ns-3-dev/src/internet/model.
           Run the dumbbelltopology in linux stack of ns-3-dce in the directory source/ns-3-dce/ using
          ./waf --run ”dumbbelltopologyns3receiver --stack=linux --queue_disc_type=FifoQueueDisc --WindowScaling=true
