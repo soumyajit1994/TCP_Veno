@@ -78,7 +78,7 @@ In this project we have used ns-3 docker container.
 
 11. Run the above 2 commands on a different terminal outside the container.
 
- 12. Run the dumbbell topology in linux stack of ns-3-dce in the directory `source/ns-3-dce/`   using
+12. Run the dumbbell topology in linux stack of ns-3-dce in the directory `source/ns-3-dce/`   using
  
          ./waf --run ”dumbbelltopologyns3receiver --stack=linux --queue_disc_type=FifoQueueDisc --WindowScaling=true -- Sack=true --stopTime=300 --delAckCount=1 --BQL=true --linux_prot=veno” 
 
@@ -103,12 +103,12 @@ In this project we have used ns-3 docker container.
 15. Now copy the `overlap-gnuplotscriptCwnd` script inside `overlapped` using 
 
            sudo docker  cp overlap-gnuplotscriptCwnd your docker name:/home/ns3dce/dce-linux-dev/source/ns-3-dce /results/dumbbell-topology/overlapped 
-
-and install `gnuplot` in directory `overlapped` using 
+        
+       and install `gnuplot` in directory `overlapped` using 
 
            sudo apt-get install gnuplot
            
- Then run
+       Then run
  
             gnuplot overlap-gnuplotscriptCwnd
  
