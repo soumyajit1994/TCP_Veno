@@ -10,9 +10,9 @@ obtained from it to those obtained by simulating Linux TCP Veno
 
 Table of Contents
 ---------------------
-1.An overview
-2.Build ns-3
-3.Overlapping ns-3 TcpVeno with Linux veno implementation
+1. An overview
+2. Build ns-3
+3. Overlapping ns-3 TcpVeno with Linux veno implementation
 
 1.An overview
 ----------------
@@ -22,6 +22,7 @@ In brief, ns-3 provides models of how packet data networks work and perform,
 and provides a simulation engine for users to conduct simulation experiments. 
 Some of the reasons to use ns-3 include to perform studies that are more difficult 
 or not possible to perform with real systems.
+[For more information](http://www.nsnam.org)
 
 Direct Code Execution (DCE) is a module for ns-3 that provides facilities to execute,
 within ns-3, existing implementations of userspace and kernelspace network protocols or 
