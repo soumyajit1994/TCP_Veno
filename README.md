@@ -70,20 +70,20 @@ Step3: Since changes was made in  the dev, you need to build the dev again.
  Step 3:   Make one folder ”overlapped” inside ns-3-dce/result/dumbell-topology/ and copy the 
             A-linux.plotme file from cwnd data to overlapped folder.
  
- Step 3:  Run the dumbbelltopology in ns3 stack using the command
+ Step 4:  Run the dumbbelltopology in ns3 stack using the command
           ./waf --run "dumbbelltopologyns3receiver --stack=ns3 -queue_disc_type=FifoQueueDisc --WindowScaling=true 
           --Sack=true --stopTime=300 --delAckCount=1 --BQL=true --transport_prot=TcpNewReno"
            This will create a new timestamp folder under ns-3-dce/result/dumbbell-topology/ and under 
            the latest timestamp folder, find a folder ”cwndTraces” where A-ns3.plotme file will be generated.
            Copy this file in overlapped folder.
           
- Step 4:  Now copy the overlap-gnuplotscriptCwnd script inside overlapped using sudo docker 
+ Step 5:  Now copy the overlap-gnuplotscriptCwnd script inside overlapped using sudo docker 
           cp overlap-gnuplotscriptCwnd your  docker name:/home/ns3dce/dce-linux-dev/source/ns-3-dce 
           /results/dumbbell-topology/overlappedand install gnuplot in directory overlapped using 
            sudo apt-get install gnuplot.Then run gnuplot overlap-gnuplotscriptCwnd.
  
- Step 5: Above steps will create a CwndA.png file inside overlapped which we can copy to home directory
-        using sudo docker cp dockername:/home/ns3dce/dce-linux-dev/source/ns-3-dce/results/dumbbell-               topology/overlapped/CwndA.png ..It is the comparison of TCP New Reno on linux and ns-3 stack.
+ Step 6: Above steps will create a CwndA.png file inside overlapped which we can copy to home directory
+        using sudo docker cp dockername:/home/ns3dce/dce-linux-dev/source/ns-3-dce/results/dumbbell-            topology/overlapped/CwndA.png.It is the comparison of TCP New Reno on linux and ns-3 stack.
          
                
                
